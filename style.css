@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+/* Shared Components */
+.logo {
+  width: 180px;
+  margin-bottom: 25px;
+  background: black;
+  padding: 10px;
+  border-radius: 4px;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* LOGIN PAGE */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background: #000;
+}
+
+.side-images {
+  position: relative;
+  margin-right: 40px;
+}
+
+.main-phone {
+  width: 380px;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 330px;
+}
+
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-box {
+  background: #fff;
+  padding: 40px;
+  width: 340px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007cd1;
+}
+
+.password-box {
+  position: relative;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 13px;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #8e8e8e;
+}
+.divider span {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+.divider p {
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.fb-login {
+  color: #385185;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+
+.signup-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  width: 340px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+/* HOME PAGE */
+.feed-header {
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logout-link {
+  font-size: 14px;
+  color: #0095f6;
+  text-decoration: none;
+}
+.logout-link:hover {
+  text-decoration: underline;
+}
+
+.stories {
+  display: flex;
+  padding: 15px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  overflow-x: auto;
+}
+.story {
+  margin-right: 15px;
+  text-align: center;
+}
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #e1306c;
+}
+
+.feed {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.post {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.post-header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-image {
+  width: 100%;
+}
+.post-actions {
+  padding: 10px;
+}
+.post-actions button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.caption {
+  padding: 0 10px 10px;
+}
