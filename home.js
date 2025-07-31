@@ -9,7 +9,7 @@ function shuffle(array) {
 }
 
 // Get random 5 images
-const randomPosts = shuffle(postImages).slice(0, 5);
+const randomPosts = shuffle(postImages);
 
 // Create and add each post
 randomPosts.forEach((img, index) => {
